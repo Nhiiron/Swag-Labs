@@ -4,7 +4,7 @@ Repozytorium przypadków testowych przygotowanych w narzędziu TestRail dla apli
 
 ## What is Swag Labs?
 
-Swag Labs jest alikacją webową, za którego pośrednictwem możliwy jest zakup produktów oraz ich przeglądanie. Aplkacja jest dostęna opensource pod tym linkiem. Przykładowy widok aplikacji:
+Swag Labs jest alikacją webową, za którego pośrednictwem możliwy jest zakup produktów oraz ich przeglądanie. Aplkacja jest dostęna opensource pod [tym](https://www.saucedemo.com/inventory.html) linkiem. Przykładowy widok aplikacji:
 
 <img title="Swag labs homepage" alt="Swag Labs Homepage" src="https://github.com/Nhiiron/Swag-Labs/blob/main/swaglabs02.PNG">
 
