@@ -13,4 +13,10 @@ Swag Labs is a web application through which it is possible to purchase products
 
 The goal of the project was to plan, draft and implement test cases and scenarios. Ultimately, 26 cases were made in four sections.
 
+Sections:
+- Login 
+- Cart Funcionality
+- Checkout 
+- Products Page
+
 <img title="Swag labs homepage" alt="Swag Labs Homepage" src="https://github.com/Nhiiron/Swag-Labs/blob/main/swaglabs01.PNG">
