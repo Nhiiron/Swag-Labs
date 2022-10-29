@@ -1,0 +1,223 @@
+﻿sep=,
+"ID","Title","Automation Type","Created By","Created On","Estimate","Expected Result","Forecast","Goals","Mission","Preconditions","Priority","References","Section","Section Depth","Section Description","Section Hierarchy","Steps","Steps","Steps (Additional Info)","Steps (Expected Result)","Steps (References)","Steps (Shared step ID)","Steps (Step)","Suite","Suite ID","Template","Type","Updated By","Updated On"
+"C17","Login"," None","Bartosz Hałasowski","10/29/2022 4:30 PM","","","","","","","Critical","","Login","0","","Login","1. User provides login (standard_user) and password (secret_sauce)
+Expected Result:
+Users username and password are filled in input field2. User clicks the ""login"" button
+Expected Result:
+1. User is logged in
+2. User is redirected to the ""products"" page","","1. 
+2.","1. Users username and password are filled in input field
+2. 1. User is logged in
+2. User is redirected to the ""products"" page","1. 
+2.","1. 
+2.","1. User provides login (standard_user) and password (secret_sauce)
+2. User clicks the ""login"" button","Master","S2","Test Case (Steps)","Functional","Bartosz Hałasowski","10/29/2022 4:50 PM"
+"C18","Login with wrong password (negative)"," None","Bartosz Hałasowski","10/29/2022 4:34 PM","","","","","","","Low","","Login","0","","Login","1. User provides correct username (standard_user) and wrong password
+Expected Result:
+Users username and password are filled in input field2. User clicks the ""login"" button
+Expected Result:
+1. User is not logged in
+2. Following information is shown: Epic sadface: Username and password do not match any user in this service","","1. 
+2.","1. Users username and password are filled in input field
+2. 1. User is not logged in
+2. Following information is shown: Epic sadface: Username and password do not match any user in this service","1. 
+2.","1. 
+2.","1. User provides correct username (standard_user) and wrong password
+2. User clicks the ""login"" button","Master","S2","Test Case (Steps)","Functional","Bartosz Hałasowski","10/29/2022 4:39 PM"
+"C19","Login with wrong username (negative)"," None","Bartosz Hałasowski","10/29/2022 4:34 PM","","","","","","","Low","","Login","0","","Login","1. User provides correct password and incorrect username
+Expected Result:
+Users username and password are filled in input field2. User clicks the ""login"" button
+Expected Result:
+1. User is not logged in
+2. Following information is shown: Epic sadface: Username and password do not match any user in this service","","1. 
+2.","1. Users username and password are filled in input field
+2. 1. User is not logged in
+2. Following information is shown: Epic sadface: Username and password do not match any user in this service","1. 
+2.","1. 
+2.","1. User provides correct password and incorrect username
+2. User clicks the ""login"" button","Master","S2","Test Case (Steps)","Functional","Bartosz Hałasowski","10/29/2022 4:36 PM"
+"C20","Log in as locked out user"," None","Bartosz Hałasowski","10/29/2022 4:43 PM","","","","","","","Medium","","Login","0","","Login","1. User provides login (locked_out_user) and password (secret_sauce)
+Expected Result:
+Users username and password are filled in input field2. User clicks the ""login"" button
+Expected Result:
+1. User is not logged in
+2. The following iformation is shown: ""Epic sadface: Sorry, this user has been locked out.""","","1. 
+2.","1. Users username and password are filled in input field
+2. 1. User is not logged in
+2. The following iformation is shown: ""Epic sadface: Sorry, this user has been locked out.""","1. 
+2.","1. 
+2.","1. User provides login (locked_out_user) and password (secret_sauce)
+2. User clicks the ""login"" button","Master","S2","Test Case (Steps)","Functional","Bartosz Hałasowski","10/29/2022 4:43 PM"
+"C21","Log in as Problem user"," None","Bartosz Hałasowski","10/29/2022 4:46 PM","","","","","","","Medium","","Login","0","","Login","1. User provides login (problem_user) and password (secret_sauce)
+Expected Result:
+Users username and password are filled in input field2. User clicks the ""login"" button
+Expected Result:
+1. User is logged in
+2. User is redirected to the ""products"" page
+3. Pictures of dog are shown instead of product pictures","","1. 
+2.","1. Users username and password are filled in input field
+2. 1. User is logged in
+2. User is redirected to the ""products"" page
+3. Pictures of dog are shown instead of product pictures","1. 
+2.","1. 
+2.","1. User provides login (problem_user) and password (secret_sauce)
+2. User clicks the ""login"" button","Master","S2","Test Case (Steps)","Functional","Bartosz Hałasowski","10/29/2022 4:51 PM"
+"C22","Log in as perofrmance glitch user"," None","Bartosz Hałasowski","10/29/2022 4:50 PM","","","","","","","Medium","","Login","0","","Login","1. User provides login (performance_glitch_user) and password (secret_sauce)
+Expected Result:
+Users username and password are filled in input field2. User clicks the ""login"" button
+Expected Result:
+1. User is logged in
+2. User is redirected to the ""products"" page","","1. 
+2.","1. Users username and password are filled in input field
+2. 1. User is logged in
+2. User is redirected to the ""products"" page","1. 
+2.","1. 
+2.","1. User provides login (performance_glitch_user) and password (secret_sauce)
+2. User clicks the ""login"" button","Master","S2","Test Case (Steps)","Other","Bartosz Hałasowski","10/29/2022 4:51 PM"
+"C23","Adding products to cart"," None","Bartosz Hałasowski","10/29/2022 4:56 PM","","","","","","User is logged in as standard user
+User is on ""products"" page","High","","Cart functonality","0","","Cart functonality","1. User clicks ""Add to cart"" button
+Expected Result:
+1. Product is added to the cart
+2. Button ""add to cart"" changes to ""remove""","","1.","1. 1. Product is added to the cart
+2. Button ""add to cart"" changes to ""remove""","1.","1.","1. User clicks ""Add to cart"" button","Master","S2","Test Case (Steps)","Functional","Bartosz Hałasowski","10/29/2022 4:56 PM"
+"C24","Removing products from cart"," None","Bartosz Hałasowski","10/29/2022 4:59 PM","","","","","","User is logged in as standard user
+User is on ""products"" page
+User has product added to cart","High","","Cart functonality","0","","Cart functonality","1. User clicks ""Remove"" button
+Expected Result:
+1. Product is removed from cart
+2. ""Remove"" button changes to ""Add to cart""","","1.","1. 1. Product is removed from cart
+2. ""Remove"" button changes to ""Add to cart""","1.","1.","1. User clicks ""Remove"" button","Master","S2","Test Case (Steps)","Functional","Bartosz Hałasowski","10/29/2022 4:59 PM"
+"C25","Redirecting to ""Your cart"" page"," None","Bartosz Hałasowski","10/29/2022 5:02 PM","","","","","","User is logged in as standard user
+User is on ""products"" page
+User has product added to cart","Critical","","Cart functonality","0","","Cart functonality","1. User clicks cart icon in top right corner
+Expected Result:
+User is redirected to ""Your cart"" page","","1.","1. User is redirected to ""Your cart"" page","1.","1.","1. User clicks cart icon in top right corner","Master","S2","Test Case (Steps)","Functional","Bartosz Hałasowski","10/29/2022 8:58 PM"
+"C26","Removing products from ""your cart"" page"," None","Bartosz Hałasowski","10/29/2022 5:04 PM","","","","","","User is logged in as standard user
+User is on ""Your cart"" page
+User has product added to cart","High","","Cart functonality","0","","Cart functonality","1. User clicks ""remove"" button
+Expected Result:
+Product is removed from ""Your cart""","","1.","1. Product is removed from ""Your cart""","1.","1.","1. User clicks ""remove"" button","Master","S2","Test Case (Steps)","Functional","Bartosz Hałasowski","10/29/2022 5:05 PM"
+"C27","Functionality of ""Continue shopping"" button"," None","Bartosz Hałasowski","10/29/2022 5:07 PM","","","","","","User is logged in as standard user
+User is on ""Your cart"" page
+","Medium","","Cart functonality","0","","Cart functonality","1. User clicks ""Continue shopping"" button
+Expected Result:
+User is redirected to ""Products"" page","","1.","1. User is redirected to ""Products"" page","1.","1.","1. User clicks ""Continue shopping"" button","Master","S2","Test Case (Steps)","Functional","Bartosz Hałasowski","10/29/2022 5:07 PM"
+"C28","Functionality of ""Checkout"" button"," None","Bartosz Hałasowski","10/29/2022 5:09 PM","","","","","","User is logged in as standard user
+User is on ""Your cart"" page
+
+","Critical","","Cart functonality","0","","Cart functonality","1. User clicks ""Checkout"" button
+Expected Result:
+User is redirected to ""CHECKOUT: YOUR INFORMATION"" page","","1.","1. User is redirected to ""CHECKOUT: YOUR INFORMATION"" page","1.","1.","1. User clicks ""Checkout"" button","Master","S2","Test Case (Steps)","Functional","Bartosz Hałasowski","10/29/2022 9:03 PM"
+"C29","""CHECKOUT: YOUR INFORMATION""  page functionality"," None","Bartosz Hałasowski","10/29/2022 5:16 PM","","","","","","User is logged in as ""standard_user""
+User is on ""CHECKOUT: YOUR INFORMATION"" page","Critical","","Checkout","0","","Checkout","1. User provides information (first name, last name, ZIP code)
+Expected Result:
+Provided information is filled up in respectful input fields2. User clicks ""Continue"" button
+Expected Result:
+1. User is redirected to ""CHECKOUT: OVERVIEW"" page
+2. Payment information, Shipping information and total cost is shown","","1. 
+2.","1. Provided information is filled up in respectful input fields
+2. 1. User is redirected to ""CHECKOUT: OVERVIEW"" page
+2. Payment information, Shipping information and total cost is shown","1. 
+2.","1. 
+2.","1. User provides information (first name, last name, ZIP code)
+2. User clicks ""Continue"" button","Master","S2","Test Case (Steps)","Functional","Bartosz Hałasowski","10/29/2022 5:39 PM"
+"C30","""CHECKOUT: YOUR INFORMATION"" page cancel button"," None","Bartosz Hałasowski","10/29/2022 5:41 PM","","","","","","User is logged in as ""standard_user""
+User is on ""CHECKOUT: YOUR INFORMATION"" page","Medium","","Checkout","0","","Checkout","1. User clicks ""cancel"" button
+Expected Result:
+User is redirected to ""Your cart"" page","","1.","1. User is redirected to ""Your cart"" page","1.","1.","1. User clicks ""cancel"" button","Master","S2","Test Case (Steps)","Functional","Bartosz Hałasowski","10/29/2022 5:41 PM"
+"C32","""CHECKOUT: YOUR INFORMATION"" page without First name (negative)"," None","Bartosz Hałasowski","10/29/2022 5:47 PM","","","","","","User is logged in as ""standard_user""
+User is on ""CHECKOUT: YOUR INFORMATION"" page","Critical","","Checkout","0","","Checkout","1. User provides information (last name, ZIP code), user leaves ""First name"" input field empty
+Expected Result:
+1. Provided information is filled up in respectful input fields
+2. Field ""First name"" remains empty2. User clicks ""Continue"" button
+Expected Result:
+User gets following information: ""Error: First Name is required""","","1. 
+2.","1. 1. Provided information is filled up in respectful input fields
+2. Field ""First name"" remains empty
+2. User gets following information: ""Error: First Name is required""","1. 
+2.","1. 
+2.","1. User provides information (last name, ZIP code), user leaves ""First name"" input field empty
+2. User clicks ""Continue"" button","Master","S2","Test Case (Steps)","Functional","Bartosz Hałasowski","10/29/2022 5:52 PM"
+"C33","""CHECKOUT: YOUR INFORMATION"" page without Last name (negative)"," None","Bartosz Hałasowski","10/29/2022 5:49 PM","","","","","","User is logged in as ""standard_user""
+User is on ""CHECKOUT: YOUR INFORMATION"" page","Low","","Checkout","0","","Checkout","1. User provides information (first name, ZIP code), user leaves ""Last name"" input field empty
+Expected Result:
+1.Provided information is filled up in respectful input fields
+
+2. Field ""Last name"" remains empty2. User clicks ""Continue"" button
+Expected Result:
+User gets following information: ""Error: Last Name is required""","","1. 
+2.","1. 1.Provided information is filled up in respectful input fields
+
+2. Field ""Last name"" remains empty
+2. User gets following information: ""Error: Last Name is required""","1. 
+2.","1. 
+2.","1. User provides information (first name, ZIP code), user leaves ""Last name"" input field empty
+2. User clicks ""Continue"" button","Master","S2","Test Case (Steps)","Functional","Bartosz Hałasowski","10/29/2022 5:51 PM"
+"C34","""CHECKOUT: YOUR INFORMATION"" page without ZIP code (negative)"," None","Bartosz Hałasowski","10/29/2022 5:51 PM","","","","","","User is logged in as ""standard_user""
+User is on ""CHECKOUT: YOUR INFORMATION"" page","Low","","Checkout","0","","Checkout","1. User provides information (last name, first name), user leaves ""ZIP code"" input field empty
+Expected Result:
+1.Provided information is filled up in respectful input fields
+
+2. Field ""ZIP code"" remains empty2. User clicks ""Continue"" button
+Expected Result:
+User gets following information: ""Error: Postal Code is required""","","1. 
+2.","1. 1.Provided information is filled up in respectful input fields
+
+2. Field ""ZIP code"" remains empty
+2. User gets following information: ""Error: Postal Code is required""","1. 
+2.","1. 
+2.","1. User provides information (last name, first name), user leaves ""ZIP code"" input field empty
+2. User clicks ""Continue"" button","Master","S2","Test Case (Steps)","Functional","Bartosz Hałasowski","10/29/2022 5:51 PM"
+"C35","CHECKOUT: OVERVIEW page functionality"," None","Bartosz Hałasowski","10/29/2022 5:59 PM","","","","","","User is logged in as ""standard_user""
+User is on ""CHECKOUT: OVERVIEW"" page
+
+","Critical","","Checkout","0","","Checkout","1. User clicks the ""finish"" button
+Expected Result:
+1. User is redirected to ""Checkout:Complete"" page
+2. Following information is dosplayed: ""THANK YOU FOR YOUR ORDER
+Your order has been dispatched, and will arrive just as fast as the pony can get there!""
+3. Picture of robot riding a pony is shown","","1.","1. 1. User is redirected to ""Checkout:Complete"" page
+2. Following information is dosplayed: ""THANK YOU FOR YOUR ORDER
+Your order has been dispatched, and will arrive just as fast as the pony can get there!""
+3. Picture of robot riding a pony is shown","1.","1.","1. User clicks the ""finish"" button","Master","S2","Test Case (Steps)","Functional","Bartosz Hałasowski","10/29/2022 5:59 PM"
+"C37","CHECKOUT: OVERVIEW page functionality - ""cancel"" button"," None","Bartosz Hałasowski","10/29/2022 6:02 PM","","","","","","User is logged in as ""standard_user""
+User is on ""CHECKOUT: OVERVIEW"" page","Medium","","Checkout","0","","Checkout","1. User clicks the ""cancel"" button
+Expected Result:
+User is redirected to ""Products"" page","","1.","1. User is redirected to ""Products"" page","1.","1.","1. User clicks the ""cancel"" button","Master","S2","Test Case (Steps)","Functional","Bartosz Hałasowski","10/29/2022 6:03 PM"
+"C36","""CHECKOUT: COMPLETE!"" page functionality"," None","Bartosz Hałasowski","10/29/2022 6:01 PM","","","","","","User is logged in as ""standard_user""
+User is on ""CHECKOUT: COMPLETE!"" page","Medium","","Checkout","0","","Checkout","1. User clicks the ""BACK HOME"" button
+Expected Result:
+User is redirected to ""Products"" page","","1.","1. User is redirected to ""Products"" page","1.","1.","1. User clicks the ""BACK HOME"" button","Master","S2","Test Case (Steps)","Functional","Bartosz Hałasowski","10/29/2022 6:03 PM"
+"C38","Drop- down menu"," None","Bartosz Hałasowski","10/29/2022 6:06 PM","","","","","","User is logged in as ""standard_user""
+User is on ""products"" page","High","","""Products"" page","0","","""Products"" page","1. User clicks ""menu"" icon in top-left corner
+Expected Result:
+Menu is expanded","","1.","1. Menu is expanded","1.","1.","1. User clicks ""menu"" icon in top-left corner","Master","S2","Test Case (Steps)","Functional","Bartosz Hałasowski","10/29/2022 8:39 PM"
+"C39","Menu - Logout"," None","Bartosz Hałasowski","10/29/2022 6:10 PM","","","","","","User is logged in as ""standard_user""
+User is on ""products"" page
+Menu is expanded
+","Medium","","""Products"" page","0","","""Products"" page","1. User clicks ""Logout"" button in menu
+Expected Result:
+User is logged out","","1.","1. User is logged out","1.","1.","1. User clicks ""Logout"" button in menu","Master","S2","Test Case (Steps)","Functional","Bartosz Hałasowski","10/29/2022 6:10 PM"
+"C42","""Products"" page Twitter icon"," None","Bartosz Hałasowski","10/29/2022 6:21 PM","","","","","","User is logged in as ""standard_user""
+User is on ""products"" page","Medium","","""Products"" page","0","","""Products"" page","1. User clicks Twitter icon
+Expected Result:
+Sauce labs Twitter page is opened in new tab","","1.","1. Sauce labs Twitter page is opened in new tab","1.","1.","1. User clicks Twitter icon","Master","S2","Test Case (Steps)","Functional","Bartosz Hałasowski","10/29/2022 8:46 PM"
+"C43","""Products"" page Facebook icon"," None","Bartosz Hałasowski","10/29/2022 6:23 PM","","","","","","User is logged in as ""standard_user""
+User is on ""products"" page","Medium","","""Products"" page","0","","""Products"" page","1. User clicks Facebook icon
+Expected Result:
+Sauce labs Facebook page is opened in new tab","","1.","1. Sauce labs Facebook page is opened in new tab","1.","1.","1. User clicks Facebook icon","Master","S2","Test Case (Steps)","Functional","Bartosz Hałasowski","10/29/2022 8:45 PM"
+"C44","""Products"" page Linkedin icon"," None","Bartosz Hałasowski","10/29/2022 6:25 PM","","","","","","User is logged in as ""standard_user""
+User is on ""products"" page","Medium","","""Products"" page","0","","""Products"" page","1. User clicks Linkedin icon
+Expected Result:
+Sauce labs Linkedin page is opened in new tab","","1.","1. Sauce labs Linkedin page is opened in new tab","1.","1.","1. User clicks Linkedin icon","Master","S2","Test Case (Steps)","Functional","Bartosz Hałasowski","10/29/2022 8:45 PM"
+"C41","Sorting products on ""products' page"," None","Bartosz Hałasowski","10/29/2022 6:17 PM","","","","","","User is logged in as ""standard_user""
+User is on ""products"" page","Medium","","""Products"" page","0","","""Products"" page","1. User clicks on sorting field in upper right corner
+Expected Result:
+4 sorting options are presented (name[A-Z];name[Z-A];price[low-high];price[high-low])2. User clicks one of possible sorting options (name[A-Z];name[Z-A];price[low-high];price[high-low]))
+Expected Result:
+Products on page are sorted by (name[A-Z];name[Z-A];price[low-high];price[high-low])","","1. 
+2.","1. 4 sorting options are presented (name[A-Z];name[Z-A];price[low-high];price[high-low])
+2. Products on page are sorted by (name[A-Z];name[Z-A];price[low-high];price[high-low])","1. 
+2.","1. 
+2.","1. User clicks on sorting field in upper right corner
+2. User clicks one of possible sorting options (name[A-Z];name[Z-A];price[low-high];price[high-low]))","Master","S2","Test Case (Steps)","Functional","Bartosz Hałasowski","10/29/2022 8:47 PM"
