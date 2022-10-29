@@ -19,4 +19,6 @@ Sections:
 - Checkout 
 - Products Page
 
+Test cases are available in xml, csv and excel fomat.
+
 <img title="Swag labs homepage" alt="Swag Labs Homepage" src="https://github.com/Nhiiron/Swag-Labs/blob/main/swaglabs01.PNG">
