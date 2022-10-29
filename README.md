@@ -1,16 +1,16 @@
 # Swag-Labs
 
-Repozytorium przypadków testowych przygotowanych w narzędziu TestRail dla aplikacji Swag Labs.
+A repository of test cases prepared in the TestRail tool for the Swag Labs application.
 
 ## What is Swag Labs?
 
-Swag Labs jest alikacją webową, za którego pośrednictwem możliwy jest zakup produktów oraz ich przeglądanie. Aplkacja jest dostęna opensource pod [tym](https://www.saucedemo.com/inventory.html) linkiem. Przykładowy widok aplikacji:
+Swag Labs is a web application through which it is possible to purchase products and browse them. The app is available open source at [this](https://www.saucedemo.com/inventory.html) link. Sample view of the application:
 
 <img title="Swag labs homepage" alt="Swag Labs Homepage" src="https://github.com/Nhiiron/Swag-Labs/blob/main/swaglabs02.PNG">
 
 
 ## Goal
 
-Celem projektu było zaplanowanie, sporządzenie oraz implementacja przypadków oraz scenariuszy testowych. Docelowo zostało wykonanych 26 przypadków w czterech sekcjach.
+The goal of the project was to plan, draft and implement test cases and scenarios. Ultimately, 26 cases were made in four sections.
 
 <img title="Swag labs homepage" alt="Swag Labs Homepage" src="https://github.com/Nhiiron/Swag-Labs/blob/main/swaglabs01.PNG">
